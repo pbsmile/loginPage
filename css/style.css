@@ -6,13 +6,12 @@ body{
 .menubar{
     margin: 0;
     width: 100%;
-    height: 150px;
+    height: 80px;
     background: #32b998
 }
 
 .container{
     width: 100%;
-    align-self: center;
     margin: 0 auto;
     background-color: #ebebeb
 }
@@ -32,8 +31,8 @@ body{
 }
 
 .box_area {
-    width: 900px;
-    height: 1000px;
+    width: 480px;
+    height: 680px;
     margin: 0 auto;
     background-color: #ffffff
 }
