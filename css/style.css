@@ -43,15 +43,12 @@ body{
     padding-top: 35px;
 }
 
-::placeholder {
-    color: red;
-  }
-
 .box_area input{
     border: 2px solid #333333;
     border-radius: 30px;
     width: 425px;
     height: 60px;
+    font-size: 20px;
     margin: 20px 30px;
 }
 
