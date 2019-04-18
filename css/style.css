@@ -19,15 +19,15 @@ body{
 .menubar img{
     margin: 0;
     float: left;
-    margin-left: 65px;
-    padding-top: 50px;
+    margin-left: 40px;
+    padding-top: 20px;
 }
 .menubar h1{
     margin: 0;
     font-weight: normal;
     float: left;
     margin-left: 20px;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .box_area {
@@ -42,6 +42,10 @@ body{
     margin-left: 141px;
     padding-top: 35px;
 }
+
+::placeholder {
+    color: red;
+  }
 
 .box_area input{
     border: 2px solid #333333;
@@ -75,13 +79,29 @@ body{
 .box_area p{
     margin: 0;
     float: left;
-    margin-left: 170px;
+    margin-left: 55px;
     padding-top: 25px;
     font-weight: 100;
 }
 
-.registbutt img{
-    margin: 10px 10PX;
+.registbutt button{
+    margin: 17px 32px;
     float: left;
-    padding-top: 5px;
+    padding-top: 4px;
+    width: 150px;
+    height: 30px;
+    background: #333333;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.registbutt button:hover {
+    background: #ffffff;
+    border-radius: 30px;
+    color: #333;
+    border: 2px solid #333;
 }
