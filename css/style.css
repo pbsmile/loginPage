@@ -1,6 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "src/BigJohn", Helvetica, Arial, sans-serif;
+    @font-face {
+    font-family:'BigJohn';
+    src:url('src/BigJohn.eot');
+    src:url('src/BigJohn.eot?#iefix')format('embedded-opentype'),
+    url('src/BigJohnt.woff')format('woff'),
+    url('src/BigJohn.ttf')format('truetype');
+    font-weight:normal;font-style:normal;}
 }
 
 .menubar{
