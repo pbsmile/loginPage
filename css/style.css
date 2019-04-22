@@ -28,7 +28,7 @@ body{
 .box_area {
     width: 480px;
     height: 555px;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: #ffffff
 }
 
@@ -50,7 +50,7 @@ body{
 
 .box_area button {
     margin: 10px 141px;
-    padding: 10px;
+    padding-top: 0px;
     width: 200px;
     height: 60px;
     background: #32b998;
@@ -78,9 +78,9 @@ body{
 }
 
 .registbutt button{
-    margin: 17px 32px;
+    margin: 18px 32px;
     float: left;
-    padding-top: 4px;
+    padding-top: 0px;
     width: 150px;
     height: 30px;
     background: #333333;
